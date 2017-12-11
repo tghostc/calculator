@@ -118,16 +118,19 @@ while True:
     elif getOpt.lower() == "subtract":
         clearScreen()
         subtract()
+        print("")
         print(subtract.result)
 
     elif getOpt.lower() == "multiply":
-        multiply()
         clearScreen()
+        multiply()
+        print("")
         print(multiply.result)
 
     elif getOpt.lower() == "divide":
         clearScreen()
         divide()
+        print("")
         print(divide.result)
 
     elif getOpt.lower() == "clear":
